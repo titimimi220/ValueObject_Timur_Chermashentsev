@@ -1,16 +1,17 @@
 package Builder;
 
-
-
-public class Person
-{
+public class Person {
 
     private int luck;
     private int strenght;
     private int intellegence;
     private int agility;
 
-    public void Person(Charakt builder){
+    public Person() {
+
+    }
+
+    private Person(Charakt builder){
         this.luck = builder.luck;
         this.strenght = builder.strenght;
         this.intellegence = builder.intellegence;
@@ -72,8 +73,7 @@ public class Person
     public void setAgility(int agility){
         this.agility = agility;
     }
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+//    public static void main( String[] args ) {
+//        System.out.println( "Hello World!" );
+//    }
 }
