@@ -52,29 +52,30 @@ public class Person {
     public int getLuck(){
         return luck;
     }
-    public void setLuck(int luck){
-        this.luck = luck;
-    }
+//    public void setLuck(int luck){
+//        this.luck = luck;
+//    }
     public int getStrenght(){
         return strenght;
     }
-    public void setStrenght(int strenght){
-        this.strenght = strenght;
-    }
+
+//    public void setStrenght(int strenght){
+//        this.strenght = strenght;
+//    }
     public int getIntellegence(){
         return intellegence;
     }
 
-    public void setIntellegence(int intellegence){
-        this.intellegence = intellegence;
-    }
+//    public void setIntellegence(int intellegence){
+//        this.intellegence = intellegence;
+//    }
     public int getAgility(){
         return agility;
     }
 
-    public void setAgility(int agility){
-        this.agility = agility;
-    }
+//    public void setAgility(int agility){
+//        this.agility = agility;
+//    }
 //    public static void main( String[] args ) {
 //        System.out.println( "Hello World!" );
 //    }
