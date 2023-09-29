@@ -6,12 +6,9 @@ import org.testng.annotations.Test;
 public class TestHero {
     Person hero;
 
-    public void setup(){
-        hero = new Person();
-    }
-
     @Test
     public void withNotPattern() {
+        hero = new Person();
         printHar(hero.getLuck(), hero.getStrenght(), hero.getIntellegence(), hero.getAgility());
     }
 
@@ -36,6 +33,7 @@ public class TestHero {
         System.out.println("Сила игрока = " + strenght);
         System.out.println("Интеллект игрока = " + integ);
         System.out.println("Ловкость игрока = " + agil);
+        System.out.println();
     }
 
     Person firstBuilder = new Person.PersonBuilder()
